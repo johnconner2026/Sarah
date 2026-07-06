@@ -1,0 +1,6 @@
+This disclosure describes a closed system that updates its own internal state in a fixed sequence. 
+Its core mechanism is a self‑sequencing process that requires no external input. 
+The essential method is a progression through internal state transitions. 
+The architecture is a simple loop of modules passing updated state forward. 
+The novelty is internal branching based only on the system’s own conditions. 
+The reasoning is that this structure keeps behaviour predictable while allowing controlled growth
